@@ -1,14 +1,22 @@
-# Agentic AI - Day 1
+# 🤖 Agentic AI - Day 1 (Groq Powered AI Agent)
 
-This project is a simple AI agent built using Groq API and LLaMA model.
+This project is a terminal-based AI assistant built using Groq API and LLaMA 3.1 model.
 
-## Features
-- Terminal-based chat agent
-- Data engineering assistant (Spark, SQL)
-- Uses Groq LLM API
+## 🚀 Features
+- Interactive CLI-based AI agent
+- Answers Data Engineering questions (Spark, SQL, Pipelines)
+- Uses Groq's ultra-fast inference
 
-## Setup
+## 🛠️ Tech Stack
+- Python 3.11
+- Groq API (LLaMA 3.1)
+- dotenv (for API key management)
+
+## 📦 Setup Instructions
 
 ```bash
+git clone https://github.com/thepunecoder/agentic-ai.git
+cd agentic-ai
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
-python app-groq.py

@@ -2,3 +2,5 @@ openai
 python-dotenv
 google-genai
 groq
+colorama
+langchain_groq

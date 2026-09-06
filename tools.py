@@ -45,3 +45,6 @@ def debug(input_text):
     if not input_text:
         return "❌ No debug info provided"
     return f"\n🐞 Debug Info:\n{input_text}"
+
+def final_answer(input_text):
+    return f"\n✅ Final Answer:\n{input_text}"
